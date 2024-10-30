@@ -1,0 +1,175 @@
+.party{
+    style="color: red;
+     background-color: bisque; 
+     border: 1px solid red;
+     border-radius: 8px;
+     padding: 50px;
+     margin:70px;
+text-align:"center
+
+}
+ 
+.student {
+border: solid 1px red;
+border-radius: 8px;
+width: 100%;
+}
+
+.student th, .student tr {
+    background-color: green;
+    color: white;
+    font: bold
+}
+.student th:hover {
+    background-color: rgb(158,168,158);
+    color: white;
+}
+td {
+   background-color: grey;
+   color: white
+}
+
+td:hover {
+    background-color: rgb(199,192,192);
+    color: black;
+}
+
+
+.body{
+padding:8rem;
+background-color: #629ce7;
+align-self:center;
+}
+
+.row{
+background-color: rgb(236,244,252);
+}
+
+#table{
+color: black;
+border: 3rem;
+width: 70%;
+gap:5rem;
+}
+
+.column{
+background-color:rgb(167,157,157)
+}
+
+.header{
+display: flex;
+justify-content:center;
+font-weight: 600;
+padding: 1rem;
+}
+
+.second{
+background-color:rgb(141,156,204);
+min-height: 23
+}
+
+
+
+.phone {
+padding: 60px;
+margin: 60px;
+text-align: center;
+font: bold;
+font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+border-color: orangered;
+border-style: solid;
+border-width: 6px;
+border-radius: 16px;
+background-color: aqua;
+background-image: url(image/OIP.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+.phone:hover {
+background-image: url(image/13013b-4-unique-wedding-dress-in-Toronto.jpg);
+color: red
+
+} 
+
+
+
+
+.card {
+background-color: #ffff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+overflow: hidden;
+width: 300px;
+text-align: center;
+transition: transform 0.3S ease;
+}
+
+.card:hover {
+    transform: translate(-10px);
+}
+
+.card-img {
+width: 100%;
+height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+    margin: 0 0 20px;   
+}
+
+.card-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.card-butto:hover {
+    background-color: #2980b9;
+}
+
+.green {
+    display: flex
+}
+
+
+
+
+
+.car {
+    padding: 60px;
+    margin: 60px;
+    text-align: center;
+    font: bold;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border-color: blue;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: aqua;
+    background-image: url(image/13013b-4-unique-wedding-dress-in-Toronto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <link
+    href="https://api.mapbox.com/mapbox-gl-js/v2.8.3/mapbox-gl.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="container">
+    <div class="contact-form">
+      <h2>Send us a message</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone #</label>
+          <input type="tel" id="phone" name="phone" placeholder="Phone #">
+        </div>
+        <div class="form-group">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" placeholder="Company name">
+        </div>
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+    <div class="map" id="map"></div>
+  </div>
+
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.3/mapbox-gl.js"></script>
+  <script>
+    mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN'; 
+    var map = new mapboxgl.Map({
+      container: 'map', 
+      style: 'mapbox://styles/mapbox/dark-v10',
+      center: [-74.006, 40.7128], 
+      zoom: 9 
+    });
+
+    new mapboxgl.Marker().setLngLat([-74.006, 40.7128]).addTo(map);
+  </script>
+</body>
+</html>

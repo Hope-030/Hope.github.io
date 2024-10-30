@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mappageassign.css">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="mapassign.css">
+  <link
+    href="https://api.mapbox.com/mapbox-gl-js/v2.8.3/mapbox-gl.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="container">
+    <div class="contact-form">
+      <h2>Send us a message</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone #</label>
+          <input type="tel" id="phone" name="phone" placeholder="Phone #">
+        </div>
+        <div class="form-group">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" placeholder="Company name">
+        </div>
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+    
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.5873124481063!2d3.537994773503688!3d6.446997524050747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf7af39897abf%3A0xe4527957ec51ad3c!2sPitch%20%26%20Play!5e0!3m2!1sen!2sng!4v1728291804314!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+  </div>
+
+
+</body>
+</html>

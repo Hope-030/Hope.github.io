@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo img {
+    height: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .auth-buttons .sign-in, .auth-buttons .sign-up {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auth-buttons .sign-in {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  .auth-buttons .sign-up {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  section.inquiries {
+    background-color: #0066cc;
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  section.inquiries h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  section.inquiries p {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  
+  .inquiry-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .inquiry-box {
+    background-color: #fff;
+    color: #333;
+    padding: 30px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .inquiry-box h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .inquiry-box p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .inquiry-box a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .inquiry-box a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .inquiry-boxes {
+      flex-direction: column;
+    }
+  
+    .inquiry-box {
+      width: 100%;
+    }
+  }
+  
